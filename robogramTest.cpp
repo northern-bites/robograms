@@ -9,16 +9,21 @@
 // *                                     *
 // ***************************************
 
+using namespace robograms;
+
 // *************************************
 // *                                   *
 // *  Message<double> Specializations  *
 // *                                   *
 // *************************************
 
+namespace robograms
+{
 template<> void MessageHolder<double>::initialize() { message = 0;}
 
 template<> std::string MessageHolder<double>::describe() const
 { return strprintf("%8.3f", message);}
+}
 
 // ***************************
 // *                         *

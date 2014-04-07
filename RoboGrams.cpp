@@ -12,7 +12,7 @@
 // *                    *
 // **********************
 
-namespace portals {
+namespace robograms {
 
 std::string strprintf (const char* format, ...)
 {
